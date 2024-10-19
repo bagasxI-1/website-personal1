@@ -1,0 +1,112 @@
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+body {
+    font-family: 'Verdana', sans-serif;
+    background: linear-gradient(to right, #f1f8e9, #c8e6c9);
+    color: #333;
+}
+
+header {
+    background-color: #a5d6a7;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px 0;
+    animation: slideInFromLeft 1s ease-out ;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+.LOGO {
+    font-size: 2rem;
+    color:black ;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.nav-list li {
+    margin-left: 20px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color:#7b6f45; /* Warna link */
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.nav-list li a:hover {
+    background-color: #2e7d32; /* Warna gelap saat hover */
+}
+
+
+.box{
+    width: 1245px;
+    height: 476px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    height: 475px;
+    width: 100%;
+    background-size: cover;
+    background-position:center ;
+    background-repeat: no-repeat ; 
+    background-color: rgba(0,0,0,0.7);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/becak-wisata-di-kota-lama-surabaya-1c7kf-dom.webp);
+    animation: slideInFromBottom 1s ease-out forwards;
+}
+.box1 {
+    background-color: #c6dbd2;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    width: 80%;
+    color: black;
+    opacity: 0.5;
+}
+
+h1 {
+    color: #1b5e20;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 15px 0;
+}
+
